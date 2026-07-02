@@ -7,7 +7,7 @@ export function HeroPlaceholder() {
   return (
     <div className="relative aspect-4/5 w-full overflow-hidden rounded-[2rem] shadow-2xl shadow-navy/30">
       <img
-        src="/img/hero-clinic.jpg"
+        src={`${import.meta.env.BASE_URL}img/hero-clinic.jpg`}
         alt="Consultório odontológico moderno e equipado"
         className="h-full w-full object-cover"
       />
